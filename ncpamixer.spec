@@ -1,11 +1,11 @@
 Summary:	ncurses PulseAudio Mixer
 Name:		ncpamixer
-Version:	1.3.3.4
+Version:	1.3.3.5
 Release:	1
 License:	MIT
 Group:		Applications/Sound
 Source0:	https://github.com/fulhax/ncpamixer/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	6280febad608b016af73b5bfeefc2809
+# Source0-md5:	5f25c50255dde4eeeebb0be277022c6a
 URL:		https://github.com/fulhax/ncpamixer
 BuildRequires:	cmake >= 3.1
 BuildRequires:	libstdc++-devel >= 6:5
