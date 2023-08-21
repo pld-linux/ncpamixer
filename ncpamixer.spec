@@ -7,8 +7,8 @@ Group:		Applications/Sound
 Source0:	https://github.com/fulhax/ncpamixer/archive/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	4679fe42ddaa4916a90cb8837d256cfc
 URL:		https://github.com/fulhax/ncpamixer
-BuildRequires:	cmake >= 3.1
-BuildRequires:	libstdc++-devel >= 6:5
+BuildRequires:	cmake >= 3.11
+BuildRequires:	libstdc++-devel >= 6:9
 BuildRequires:	ncurses-devel
 BuildRequires:	ncurses-ext-devel
 BuildRequires:	pulseaudio-devel
