@@ -1,7 +1,7 @@
 Summary:	ncurses PulseAudio Mixer
 Name:		ncpamixer
 Version:	1.3.7
-Release:	1
+Release:	2
 License:	MIT
 Group:		Applications/Sound
 Source0:	https://github.com/fulhax/ncpamixer/archive/%{version}/%{name}-%{version}.tar.gz
@@ -25,6 +25,7 @@ An ncurses mixer for PulseAudio inspired by pavucontrol.
 install -d build
 cd build
 %cmake ../src \
+	-DBUILD_MANPAGES:BOOL=OFF \
 	-DUSE_WIDE=TRUE
 %{__make}
 
